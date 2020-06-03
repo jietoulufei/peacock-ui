@@ -1,29 +1,25 @@
-# peacock-ui
+# peacock-ui 开发文档
+## Peacock-UI(孔雀)是一款绚丽的基于vue开发的UI组件库
 
-## Project setup
+## 安装组件库
 ```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
+npm install peacock-ui 
 ```
 
-### Compiles and minifies for production
+### 全局导入
 ```
-npm run build
+import PeacockUI from "peacock-ui";
+import "peacock-ui/lib/peacock-ui.css";
+
+Vue.use(PeacockUI)
+
 ```
 
-### Run your tests
+### BUTTON组件
 ```
-npm run test
+<ZF-button type="Streamer-1">Streamer-1</ZF-button>
 ```
 
-### Lints and fixes files
-```
-npm run lint
-```
 
 ### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+See [Configuration Reference](https://peacock-ui.com).
