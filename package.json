@@ -1,13 +1,17 @@
 {
   "name": "peacock-ui",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "main":"dist/peacock-ui.umd.min.js",
+  "author": {
+    "name": "朱帆"
+  },
+  "description": "Peacock-UI(孔雀)是一款绚丽的基于vue开发的UI组件库",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "lib": "vue-cli-service build --target lib packages/index.js",
-    "description": "Peacock-UI(孔雀)是一款绚丽的基于vue开发的UI组件库"
+    "lib": "vue-cli-service build --target lib packages/index.js"
   },
   "dependencies": {
     "core-js": "^3.6.5",
