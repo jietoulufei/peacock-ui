@@ -9,7 +9,7 @@ npm install peacock-ui
 ### 全局导入
 ```
 import PeacockUI from "peacock-ui";
-import "peacock-ui/lib/peacock-ui.css";
+import "peacock-ui/dist/peacock-ui.css";
 
 Vue.use(PeacockUI)
 
